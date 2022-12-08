@@ -1,0 +1,38 @@
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class GameManager : MonoBehaviour
+{
+    public int level = 1;
+
+    public int score;
+
+    public int lives = 3;
+
+
+    private void Awake()
+    {
+        DontDestroyOnLoad(this.gameObject);
+    }
+
+    private void Start()
+    {
+        NewGame();
+    }
+
+    private void NewGame()
+    {
+        this.score = 0;
+        this.lives = 3;
+
+        Loadlevel(1);
+    }
+
+    private void Loadlevel(int level)
+    {
+        this.level = level;
+
+        SceneManager.LoadScene($"Level{level}");
+    }
+
+}
