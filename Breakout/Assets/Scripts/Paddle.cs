@@ -32,26 +32,6 @@ public class Paddle : MonoBehaviour
         this.rigidbody.mass = this.mass;
         this.rigidbody.gravityScale = this.gravity;
     }
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        Ball ball = collision.gameObject.GetComponent<Ball>();
-
-        if (ball != null)
-        {
-            Vector3 paddlePosition = this.transform.position;
-            Vector2 contactPoint = collision.GetContact(0).point;
-
-            float offset = paddlePosition.x - contactPoint.x;
-            float width = collision.otherCollider.bounds.size.x / 2;
-
-            float currentAngle = Vector2.SignedAngle(Vector2.up, ball.rigidbody.velocity);
-            float bounceAngle = (offset / width) * this.maxBounceAngle;
-            float newAngle = Mathf.Clamp(currentAngle + bounceAngle, -this.maxBounceAngle, this.maxBounceAngle);
-
-            Quaternion rotation = Quaternion.AngleAxis(newAngle, Vector3.forward);
-            ball.rigidbody.velocity = rotation * Vector2.up * ball.rigidbody.velocity.magnitude;
-        }
-    }
 
     private void Update()
     {
@@ -83,6 +63,26 @@ public class Paddle : MonoBehaviour
         if (this.direction != Vector2.zero)
         {
             this.rigidbody.AddForce(this.direction * speed);
+        }
+    }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        Ball ball = collision.gameObject.GetComponent<Ball>();
+
+        if (ball != null)
+        {
+            Vector3 paddlePosition = this.transform.position;
+            Vector2 contactPoint = collision.GetContact(0).point;
+
+            float offset = paddlePosition.x - contactPoint.x;
+            float width = collision.otherCollider.bounds.size.x / 2;
+
+            float currentAngle = Vector2.SignedAngle(Vector2.up, ball.rigidbody.velocity);
+            float bounceAngle = (offset / width) * this.maxBounceAngle;
+            float newAngle = Mathf.Clamp(currentAngle + bounceAngle, -this.maxBounceAngle, this.maxBounceAngle);
+
+            Quaternion rotation = Quaternion.AngleAxis(newAngle, Vector3.forward);
+            ball.rigidbody.velocity = rotation * Vector2.up * ball.rigidbody.velocity.magnitude;
         }
     }
 

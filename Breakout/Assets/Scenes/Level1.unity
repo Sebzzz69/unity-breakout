@@ -130,6 +130,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 507717526}
     m_Modifications:
+    - target: {fileID: -8783865431793418845, guid: bd52e5a6e10cda54c8580256de317f0d, type: 3}
+      propertyPath: states.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 2943562892725500380, guid: bd52e5a6e10cda54c8580256de317f0d, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -252,6 +256,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1107278586}
     m_Modifications:
+    - target: {fileID: -8783865431793418845, guid: bd52e5a6e10cda54c8580256de317f0d, type: 3}
+      propertyPath: states.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2943562892725500380, guid: bd52e5a6e10cda54c8580256de317f0d, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -351,6 +359,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2135825676}
     m_Modifications:
+    - target: {fileID: -8783865431793418845, guid: bd52e5a6e10cda54c8580256de317f0d, type: 3}
+      propertyPath: states.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2943562892725500380, guid: bd52e5a6e10cda54c8580256de317f0d, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -549,6 +561,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 507717526}
     m_Modifications:
+    - target: {fileID: -8783865431793418845, guid: bd52e5a6e10cda54c8580256de317f0d, type: 3}
+      propertyPath: states.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 2943562892725500380, guid: bd52e5a6e10cda54c8580256de317f0d, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -650,6 +666,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2135825676}
     m_Modifications:
+    - target: {fileID: -8783865431793418845, guid: bd52e5a6e10cda54c8580256de317f0d, type: 3}
+      propertyPath: states.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2943562892725500380, guid: bd52e5a6e10cda54c8580256de317f0d, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -969,6 +989,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1107278586}
     m_Modifications:
+    - target: {fileID: -8783865431793418845, guid: bd52e5a6e10cda54c8580256de317f0d, type: 3}
+      propertyPath: states.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2943562892725500380, guid: bd52e5a6e10cda54c8580256de317f0d, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -1051,10 +1075,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8c8d994a97478745a9bf1012d80d258, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 40
   mass: 0.5
   drag: 5
   gravity: 0
+  speed: 40
+  maxBounceAngle: 75
   rightInput: 100
   rightArrowInput: 275
   leftInput: 97
@@ -1178,6 +1203,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 507717526}
     m_Modifications:
+    - target: {fileID: -8783865431793418845, guid: bd52e5a6e10cda54c8580256de317f0d, type: 3}
+      propertyPath: states.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 2943562892725500380, guid: bd52e5a6e10cda54c8580256de317f0d, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -1337,6 +1366,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2135825676}
     m_Modifications:
+    - target: {fileID: -8783865431793418845, guid: bd52e5a6e10cda54c8580256de317f0d, type: 3}
+      propertyPath: states.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2943562892725500380, guid: bd52e5a6e10cda54c8580256de317f0d, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -1398,6 +1431,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 507717526}
     m_Modifications:
+    - target: {fileID: -8783865431793418845, guid: bd52e5a6e10cda54c8580256de317f0d, type: 3}
+      propertyPath: states.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 2943562892725500380, guid: bd52e5a6e10cda54c8580256de317f0d, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -1459,6 +1496,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2135825676}
     m_Modifications:
+    - target: {fileID: -8783865431793418845, guid: bd52e5a6e10cda54c8580256de317f0d, type: 3}
+      propertyPath: states.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2943562892725500380, guid: bd52e5a6e10cda54c8580256de317f0d, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -1525,6 +1566,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276199335}
     m_Modifications:
+    - target: {fileID: -8783865431793418845, guid: bd52e5a6e10cda54c8580256de317f0d, type: 3}
+      propertyPath: states.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 2943562892725500380, guid: bd52e5a6e10cda54c8580256de317f0d, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -1591,6 +1636,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1107278586}
     m_Modifications:
+    - target: {fileID: -8783865431793418845, guid: bd52e5a6e10cda54c8580256de317f0d, type: 3}
+      propertyPath: states.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2943562892725500380, guid: bd52e5a6e10cda54c8580256de317f0d, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -1720,6 +1769,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2135825676}
     m_Modifications:
+    - target: {fileID: -8783865431793418845, guid: bd52e5a6e10cda54c8580256de317f0d, type: 3}
+      propertyPath: states.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2943562892725500380, guid: bd52e5a6e10cda54c8580256de317f0d, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -1786,6 +1839,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1107278586}
     m_Modifications:
+    - target: {fileID: -8783865431793418845, guid: bd52e5a6e10cda54c8580256de317f0d, type: 3}
+      propertyPath: states.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2943562892725500380, guid: bd52e5a6e10cda54c8580256de317f0d, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -1905,6 +1962,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 507717526}
     m_Modifications:
+    - target: {fileID: -8783865431793418845, guid: bd52e5a6e10cda54c8580256de317f0d, type: 3}
+      propertyPath: states.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 2943562892725500380, guid: bd52e5a6e10cda54c8580256de317f0d, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -1966,6 +2027,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276199335}
     m_Modifications:
+    - target: {fileID: -8783865431793418845, guid: bd52e5a6e10cda54c8580256de317f0d, type: 3}
+      propertyPath: states.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 2943562892725500380, guid: bd52e5a6e10cda54c8580256de317f0d, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -2032,6 +2097,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276199335}
     m_Modifications:
+    - target: {fileID: -8783865431793418845, guid: bd52e5a6e10cda54c8580256de317f0d, type: 3}
+      propertyPath: states.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 2943562892725500380, guid: bd52e5a6e10cda54c8580256de317f0d, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -2155,6 +2224,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 507717526}
     m_Modifications:
+    - target: {fileID: -8783865431793418845, guid: bd52e5a6e10cda54c8580256de317f0d, type: 3}
+      propertyPath: states.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 2943562892725500380, guid: bd52e5a6e10cda54c8580256de317f0d, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -2231,6 +2304,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276199335}
     m_Modifications:
+    - target: {fileID: -8783865431793418845, guid: bd52e5a6e10cda54c8580256de317f0d, type: 3}
+      propertyPath: states.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 2943562892725500380, guid: bd52e5a6e10cda54c8580256de317f0d, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -2292,6 +2369,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1107278586}
     m_Modifications:
+    - target: {fileID: -8783865431793418845, guid: bd52e5a6e10cda54c8580256de317f0d, type: 3}
+      propertyPath: states.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2943562892725500380, guid: bd52e5a6e10cda54c8580256de317f0d, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -2452,6 +2533,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2135825676}
     m_Modifications:
+    - target: {fileID: -8783865431793418845, guid: bd52e5a6e10cda54c8580256de317f0d, type: 3}
+      propertyPath: states.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2943562892725500380, guid: bd52e5a6e10cda54c8580256de317f0d, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -2513,6 +2598,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1107278586}
     m_Modifications:
+    - target: {fileID: -8783865431793418845, guid: bd52e5a6e10cda54c8580256de317f0d, type: 3}
+      propertyPath: states.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2943562892725500380, guid: bd52e5a6e10cda54c8580256de317f0d, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -2595,6 +2684,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1107278586}
     m_Modifications:
+    - target: {fileID: -8783865431793418845, guid: bd52e5a6e10cda54c8580256de317f0d, type: 3}
+      propertyPath: states.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2943562892725500380, guid: bd52e5a6e10cda54c8580256de317f0d, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -2652,6 +2745,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276199335}
     m_Modifications:
+    - target: {fileID: -8783865431793418845, guid: bd52e5a6e10cda54c8580256de317f0d, type: 3}
+      propertyPath: states.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 2943562892725500380, guid: bd52e5a6e10cda54c8580256de317f0d, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -2713,6 +2810,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 507717526}
     m_Modifications:
+    - target: {fileID: -8783865431793418845, guid: bd52e5a6e10cda54c8580256de317f0d, type: 3}
+      propertyPath: states.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 2943562892725500380, guid: bd52e5a6e10cda54c8580256de317f0d, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -2936,6 +3037,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276199335}
     m_Modifications:
+    - target: {fileID: -8783865431793418845, guid: bd52e5a6e10cda54c8580256de317f0d, type: 3}
+      propertyPath: states.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 2943562892725500380, guid: bd52e5a6e10cda54c8580256de317f0d, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -3002,6 +3107,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2135825676}
     m_Modifications:
+    - target: {fileID: -8783865431793418845, guid: bd52e5a6e10cda54c8580256de317f0d, type: 3}
+      propertyPath: states.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2943562892725500380, guid: bd52e5a6e10cda54c8580256de317f0d, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -3073,6 +3182,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276199335}
     m_Modifications:
+    - target: {fileID: -8783865431793418845, guid: bd52e5a6e10cda54c8580256de317f0d, type: 3}
+      propertyPath: states.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 2943562892725500380, guid: bd52e5a6e10cda54c8580256de317f0d, type: 3}
       propertyPath: m_RootOrder
       value: 0
