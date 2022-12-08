@@ -417,6 +417,7 @@ GameObject:
   - component: {fileID: 181615659}
   - component: {fileID: 181615658}
   - component: {fileID: 181615657}
+  - component: {fileID: 181615661}
   m_Layer: 0
   m_Name: Ball
   m_TagString: Untagged
@@ -454,9 +455,9 @@ Rigidbody2D:
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: d44dbb7717ccb8e4c93df76d75d5de8f, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
@@ -526,6 +527,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &181615661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 181615656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b539178d3746e854196acdac393c5c69, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 500
+  gravity: 0
+  drag: 0
 --- !u!1001 &211909486
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1035,7 +1051,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8c8d994a97478745a9bf1012d80d258, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 30
+  speed: 40
+  mass: 0.5
+  drag: 5
+  gravity: 0
   rightInput: 100
   rightArrowInput: 275
   leftInput: 97
@@ -1080,13 +1099,13 @@ Rigidbody2D:
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_AngularDrag: 0
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 6
 --- !u!212 &469822115
 SpriteRenderer:
   m_ObjectHideFlags: 0
