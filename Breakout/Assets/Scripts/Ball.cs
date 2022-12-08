@@ -18,7 +18,7 @@ public class Ball : MonoBehaviour
     private void Start()
     {
         this.rigidbody.gravityScale = this.gravity;
-        this.rigidbody.drag = this.drag;
+        this.rigidbody.drag = this.drag;    
 
         Invoke(nameof(SetRandomTrajectory), 1f);
     }
