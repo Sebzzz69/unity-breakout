@@ -7,6 +7,10 @@ public class Brick : MonoBehaviour
     public Sprite[] states;
 
     public int health { get; private set; }
+
+    public int destroyPoints = 75;
+    public int hitPoints = 25;
+
     public bool unbreakable;
 
 
@@ -41,6 +45,7 @@ public class Brick : MonoBehaviour
             UpdateSprite();
         }
 
+        FindObjectOfType<GameManager>().Hit(this);
         
     }
 
